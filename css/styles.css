@@ -1,6 +1,7 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
+    color: #434455;
 }
 
 ul {
@@ -17,7 +18,7 @@ ul {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.166;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
 }
@@ -32,22 +33,22 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .nav-link:active {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .nav-link:hover {
     text-decoration: underline;
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .nav-link:focus {
     text-decoration: underline;
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .address-link {
@@ -57,21 +58,21 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
 .address-link:active {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .address-link:hover {
-    color: #4D5AE5;
+    color: #404bbf;
     text-decoration: underline;
 }
 
 .address-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
     text-decoration: underline;
 }
 
@@ -80,11 +81,12 @@ ul {
 }
 
 .hero-text {
+    text-align: center;
     font-family: Roboto;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -93,7 +95,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
@@ -116,7 +118,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -125,7 +127,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -137,8 +139,8 @@ ul {
      font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
@@ -152,7 +154,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
@@ -162,7 +164,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
 }
@@ -175,8 +177,8 @@ ul {
     font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
@@ -186,7 +188,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -195,7 +197,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -209,7 +211,7 @@ ul {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
 }
@@ -219,6 +221,6 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 }
