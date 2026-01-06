@@ -4,11 +4,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2;
+    background-color: #FFFFFF;
 }
 
 a {
     text-decoration: none;
-    color: #434455;
     font-size: 12px;
     line-height: 1.333;
     letter-spacing: 4;
@@ -16,14 +16,33 @@ a {
 
 ul {
     list-style: none;
+    font-style: normal;
+}
+
+header ul {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header nav {
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+header address {
+    font-weight: 400;
+    color: #434455;
 }
 
 .logo {
     background-color: #FFFFFF;
-    font-weight: bold;
-    line-height: 1%;
-    letter-spacing: 2%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.857;
+    letter-spacing: 3;
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #2E2F42;
 }
 
 .web {
@@ -35,11 +54,16 @@ ul .link:active {
 }
 
 ul .link:hover {
-    color: #4D5AE5;
+    color: #404bbf;
     text-decoration: underline;
 }
 
-.team-card {
+ul .link:focus {
+    color: #404bbf;
+    text-decoration: underline;
+}
+
+.team-card li {
     background-color: #FFFFFF;
 }
 
@@ -57,12 +81,17 @@ h1 {
 }
 
 .button {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 4;
     background-color: #4D5AE5;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 
 .button:hover {
@@ -88,5 +117,21 @@ h1 {
 
 .footer .logo {
     background-color: #2E2F42;
-    color: #FFFFFF;
+    color: #F4F4FD;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2;
+    color: #2E2F42;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2;
+    color: #434455;
 }
