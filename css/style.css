@@ -1,0 +1,92 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #434455;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 4;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+ul .link:active {
+    color: #4D5AE5;
+}
+
+ul .link:hover {
+    color: #4D5AE5;
+    text-decoration: underline;
+}
+
+.team-card {
+    background-color: #FFFFFF;
+}
+
+.hero-image {
+    background-color: #2E2F42;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.071;
+    letter-spacing: 2;
+    text-align: center;
+}
+
+.button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.button:hover {
+     background-color: #404BBF;
+}
+
+.your-team {
+    background-color: #F4F4FD;
+}
+
+.team-text {
+    text-align: center;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.footer .logo {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
